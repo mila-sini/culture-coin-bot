@@ -1,0 +1,13 @@
+{
+  "name": "culture-coin-bot",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tsc",
+    "push": "clasp push",
+    "open": "clasp open"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.56",
+    "typescript": "^5.7.2"
+  }
+}

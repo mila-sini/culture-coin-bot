@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "outDir": "dist",
+      "rootDir": "src",
+      "strict": true,
+      "typeRoots": ["./node_modules/@types"],
+      "types": ["google-apps-script"], 
+      "lib": ["ES6"],         
+    },
+    "include": ["src/**/*.ts"]
+  }
