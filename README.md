@@ -66,54 +66,58 @@ culturecoinbot
 ## Developer Guide
 
 1. Prerequisites
-   Google Account: Ensure you have access to Google Workspace with permission to use Apps Script and Google Chat APIs.
-   Clasp Installed: For local development, install Clasp (Command Line Apps Script):
+
+- Google Account: Ensure you have access to Google Workspace with permission to use Apps Script and Google Chat APIs.
+- Clasp Installed: For local development, install Clasp (Command Line Apps Script):
 
 ```
 npm install -g @google/clasp
 ```
 
 2. Setting Up the Project
-   2.1. Clone the repository:
+
+2.1. Clone the repository:
 
 ```
 git clone git@github.com:mila-sini/culture-coin-bot.git
 cd culture-coin-bot
 ```
 
-    2.2. Install dependencies:
+2.2. Install dependencies:
 
 ```
 npm install
 ```
 
-    2.3. Login to clasp
+2.3. Login to clasp
 
 ```
 clasp login
 ```
 
 3. Contributing
-   3.1. Build the project:
+
+3.1. Build the project:
 
 ```
 npm run build
 ```
 
-    3.2. Push the change:
+3.2. Push the change:
 
 ```
 npm run push
 ```
 
-    3.3. Open clasp:
+3.3. Open clasp:
 
 ```
 npm run open
 ```
 
 4. Collaborating with Other Developers
-   Use Clasp to synchronize changes between developers:
+
+Use Clasp to synchronize changes between developers:
 
 ```
 clasp pull
